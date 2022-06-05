@@ -1,0 +1,36 @@
+.thankYouContainer {
+  background: radial-gradient(100% 100% at 50.1% 0%, #232f3d 0%, #131820 100%);
+  width: 450px;
+  height: 450px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 35px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 475px) {
+  .thankYouContainer {
+    width: 300px;
+  }
+}
+
+.score {
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
+  height: 2.5rem;
+  border-radius: 30px;
+  background-color: var(--dark-blue);
+  color: var(--orange);
+}
+
+.thankYouImage {
+  width: 50%;
+}
+
+.thankYouText {
+  text-align: center;
+}

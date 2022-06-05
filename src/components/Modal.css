@@ -1,0 +1,83 @@
+.container {
+  background: radial-gradient(100% 100% at 50.1% 0%, #232f3d 0%, #131820 100%);
+  width: 450px;
+  height: 500px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  box-sizing: border-box;
+}
+
+.starCircle {
+  background-color: rgba(65, 65, 65, 0.747);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    margin: 0 10px;
+  }
+}
+
+p {
+  margin-top: -10px;
+}
+
+.scoreButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.numButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: rgba(65, 65, 65, 0.747);
+  cursor: pointer;
+}
+
+.numButtonClicked {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--light-grey);
+  color: white;
+  cursor: pointer;
+}
+
+.numButton:hover {
+  background: var(--orange);
+  color: var(--white);
+}
+
+.submit {
+  background-color: var(--orange);
+  color: var(--white);
+  border: none;
+  border-radius: 40px;
+  height: 3.5rem;
+  margin-top: 2.5rem;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: var(--white);
+  color: var(--orange);
+}
